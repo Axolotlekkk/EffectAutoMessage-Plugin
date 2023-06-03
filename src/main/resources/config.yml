@@ -1,0 +1,11 @@
+# ----------------------------------------------------------------
+# EffectAutoMessage
+# Author: Axolotlekkk
+# Version: 1.0
+# ----------------------------------------------------------------
+# Time count in seconds
+time: 5
+
+messsages:
+  - "&2EffectAutoMessage is good AutoMessage plugin"
+  - "&eAuthor: Axolotlekkk"

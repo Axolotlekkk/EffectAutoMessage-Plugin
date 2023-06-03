@@ -1,0 +1,4 @@
+name: EffectAutoMessage
+version: '${project.version}'
+main: xyz.axo.effect.effectautomessage.EffectAutoMessage
+api-version: 1.18
