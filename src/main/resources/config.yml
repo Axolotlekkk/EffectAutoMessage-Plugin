@@ -6,6 +6,10 @@
 # Time count in seconds
 time: 5
 
-messsages:
+messages:
   - "&2EffectAutoMessage is good AutoMessage plugin"
   - "&eAuthor: Axolotlekkk"
+
+reload-message: "Config Reloaded"
+reloaded-in: "&aReloaded in "
+error-reload: "&cCan't reload config , check console to see error"
