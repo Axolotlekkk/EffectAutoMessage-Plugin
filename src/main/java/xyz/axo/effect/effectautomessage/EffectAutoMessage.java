@@ -17,6 +17,7 @@ public final class EffectAutoMessage extends JavaPlugin {
         List<String> messages = this.getConfig().getStringList("messages");
         Random random = new Random();
         this.getServer().getScheduler().runTaskTimer(this, () -> {
+            messages.stream().map(s -> ChatColor.translateAlternateColorCodes('&', s)).collect(Collectors.toList());
             int index = random.nextInt(this.getConfig().getList("messages").size());
             Bukkit.broadcastMessage((String) this.getConfig().getList("messages").get(index));
         }, 0L, 20L * getConfig().getInt("time"));
